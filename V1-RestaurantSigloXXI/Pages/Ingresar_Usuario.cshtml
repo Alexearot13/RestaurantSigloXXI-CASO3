@@ -1,0 +1,32 @@
+﻿@page
+@model V1_RestaurantSigloXXI.Pages.Ingresar_UsuarioModel
+@{
+}
+
+<div class="container">
+    <div class="card card-container">
+        <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+        <p id="profile-name" class="profile-name-card"></p>
+        <form class="form-signin">
+            <span id="reauth-email" class="reauth-email"></span>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+            <div id="remember" class="checkbox">
+                <label>
+                    <input type="checkbox" value="remember-me"> Recordarme
+                </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block btn-signin" type="">Ingresar</button>
+
+
+        </form>
+        <a href="" class="forgot-password">
+            Olvidaste tu contraseña?
+        </a>
+        <a href="/Registrarse_Usuario" class="forgot-password">
+            No tienes cuenta?
+        </a>
+    </div>
+</div>
+
+<a class="nav-link text-dark" asp-area="" asp-page="/Cliente_Menu">dsdfsd</a>
